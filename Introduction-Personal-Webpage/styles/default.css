@@ -1,0 +1,48 @@
+body
+{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color:#30e756 ;
+	background-color:#b093f1;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+header, footer
+{
+	text-align: center;
+}
+
+h1, h2, h3
+{
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+	line-height: 0px;
+}
+
+a
+{
+	text-decoration: none;
+	color: purple;
+	font-weight: bold;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: lightblue;
+}
+
+figure
+{
+	text-align: center;
+}
+
+figcaption
+{
+	font-style: italic;
+}
+
+nav
+{
+	text-align: center;
+}
