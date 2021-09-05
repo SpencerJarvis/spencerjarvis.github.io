@@ -3,8 +3,8 @@ body
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	color:#30e756 ;
 	background-color:#b093f1;
-	margin-left: 75px;
-	margin-right: 75px;
+	margin-left: 60px;
+	margin-right: 60px;
 }
 
 header, footer
@@ -39,7 +39,7 @@ figure
 
 figcaption
 {
-	font-style: italic;
+	font-style: bold;
 }
 
 nav
