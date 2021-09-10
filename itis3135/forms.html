@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+	    <link href="styles/forms_style.css" rel="stylesheet" type="text/css" >
+        <title>Spencer Jarvis, ITIS 3135, Activity #3 Forms</title>
+    </head>
+    <body>
+        <header>
+            <h1>Spencer Jarvis || ITIS 3135</h1>
+        </header>
+        <nav>
+            <a href="introduction.html">Introduction</a>
+            ||
+            <a href="contract.html">Contract</a>
+            ||
+            <a href="tables.html">Tables</a>
+            ||
+            <a href="forms.html">Forms</a>
+        </nav>
+        <main>
+            <h2>Forms</h2>
+            <p>Fill out the forms to recieve the newsletter:</p>
+            <form action="#">
+                <!--Textboxes-->
+                <h3>Personal Information</h3>
+                <label>Name:</label>
+                <br>
+                <input type="text" id="name" name="name" placeholder="Bob Jones">
+                <br>
+                <label>Email Address:</label>
+                <br>
+                <input type="text" id="email" name="email" placeholder="bobjones@email.com">
+                <br>
+                <label>Phone Number:</label>
+                <br>
+                <input type="text" id="phone" name="phone" placeholder="555-555-5555" size="13">
+                <br>
+                <!--Checkboxes-->
+                <h3>Which sections do you want?</h3>
+                <input type="checkbox" id="current_events" name="Sections" value="CE">
+                <label for="CE">Current Events</label>
+                <br>
+                <input type="checkbox" id="new_tech" name="Sections" value="NT">
+                <label for="NT">New Technology</label>
+                <br>
+                <input type="checkbox" id="fun_facts" name="Sections" value="FF">
+                <label for="FF">Fun Facts</label>
+                <br>
+                <!--Radio-->
+                <h3>How often would you like newsletter notifications?</h3>
+                <input type="radio" id="day" name="Notification" value="day">
+                <label for="day">Daily</label>
+                <br>
+                <input type="radio" id="week" name="Notification" value="week">
+                <label for="week">Weekly</label>
+                <br>
+                <input type="radio" id="month" name="Notification" value="month">
+                <label for="month">Monthly</label>
+                <br>
+                <input type="radio" id="6_month" name="Notification" value="6_month">
+                <label for="6_month">Biyearly</label>
+                <br>
+                <input type="radio" id="never" name="Notification" value="never">
+                <label for="never">Never</label>
+                <br>
+                <!--Drop Down-->
+                <h3>What is your prefered method recieving notifications?</h3>
+                <label for = "Contact">Notification via:</label>
+                <select name ="Contact" required>
+                    <option value="Email">Email</option>
+                    <option value="Text">Text</option>
+                    <option value="Call">Phone Call</option>
+                    <option value="None">Never Send Notifications</option>
+                </select>
+                <!--Button-->
+                <br>
+                <br>
+                <label>Click here to submit:</label>
+                <br>
+                <button>Submit</button>
+                <br>
+                <br>
+            </form>
+        </main>
+
+        <footer>
+
+            <nav>
+                <a href="https://webpages.uncc.edu/sjarvi13/itis3135/introduction.html" target="_blank">Charlotte.edu</a> ||
+                <a href="https://github.com/sjarvi13" target="_blank">Github</a>  ||
+                <a href="https://sjarvi13.github.io/itis3135/introduction.html " target="_blank">Github.io</a>  ||
+                <a href="https://www.freecodecamp.org/spencerjarvis" target="_blank">freeCodeCamp</a>  
+            </nav>
+
+            <br>
+            <p>Page built by Jarvis Designs</p>
+
+            <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.uncc.edu%2Fjruss8%2Fitis3135%2Fintroduction.html">
+                <img src="images/html-image.gif" width="88" height="31" alt="Link to HTML validator">
+            </a>
+    
+            <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwebpages.uncc.edu%2Fjruss8%2Fitis3135%2Fintroduction.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+                <img src="images/css-image.gif" width="88" height="31" alt="Link to CSS validator">
+            </a>
+
+        </footer>
+    </body>
+</html>
