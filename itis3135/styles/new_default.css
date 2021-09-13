@@ -1,3 +1,5 @@
+/*Introduction/Default Section*/
+
 body
 {
 	margin-left: 60px;
@@ -6,11 +8,6 @@ body
 	color:#30e756 ;
 	background-color:#b093f1;
 	
-}
-
-li
-{
-	text-align: center;
 }
 
 p
@@ -51,8 +48,8 @@ figure
 
 figcaption
 {
-	font-size: 12px;
-	text-align: center;
+	font-weight:bold;
+    text-align: center;
 }
 
 nav
@@ -60,6 +57,13 @@ nav
 	text-align: center;
 }
 
+/* Contract Page additions */
+#contract_description
+{
+    text-align: center;
+}
+
+/* Tables */
 table
 {
 	border-collapse: collapse;
@@ -85,7 +89,39 @@ tbody tr:nth-child(even) td
 	background-color: #3a3638;
 }
 
+#table_list
+{
+    text-align: center;
+}
+
 #final_row
 {
 	background-color: #3a3638;
+}
+
+/* Forms */
+input[type="text"]
+{
+	color:#30e756;
+	background-color: black;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+select
+{
+	color:#30e756;
+	background-color: black;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	border: black 1px;
+}
+
+button
+{
+ background-color: purple;
+ color:white;
+}
+
+.form_headers
+{
+    text-align: left;
 }

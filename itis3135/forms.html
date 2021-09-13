@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-	    <link href="styles/forms_style.css" rel="stylesheet" type="text/css" >
+	    <link href="styles/new_default.css" rel="stylesheet" type="text/css" >
         <title>Spencer Jarvis, ITIS 3135, Activity #3 Forms</title>
     </head>
     <body>
@@ -23,7 +23,7 @@
             <p>Fill out the forms to recieve the newsletter:</p>
             <form action="#">
                 <!--Textboxes-->
-                <h3>Personal Information</h3>
+                <h3 class="form_headers">Personal Information</h3>
                 <label>Name:</label>
                 <br>
                 <input type="text" id="name" name="name" placeholder="Bob Jones" required>
@@ -37,7 +37,7 @@
                 <input type="text" id="phone" name="phone" placeholder="555-555-5555" size="13" required>
                 <br>
                 <!--Checkboxes-->
-                <h3>Which sections do you want?</h3>
+                <h3 class="form_headers">Which sections do you want?</h3>
                 <input type="checkbox" id="current_events" name="Sections" value="CE">
                 <label for="CE">Current Events</label>
                 <br>
@@ -48,7 +48,7 @@
                 <label for="FF">Fun Facts</label>
                 <br>
                 <!--Radio-->
-                <h3>How often would you like newsletter notifications?</h3>
+                <h3 class="form_headers">How often would you like newsletter notifications?</h3>
                 <input type="radio" id="day" name="Notification" value="day">
                 <label for="day">Daily</label>
                 <br>
@@ -65,7 +65,7 @@
                 <label for="never">Never</label>
                 <br>
                 <!--Drop Down-->
-                <h3>What is your prefered method recieving notifications?</h3>
+                <h3 class="form_headers">What is your prefered method recieving notifications?</h3>
                 <label for = "Contact">Notification via:</label>
                 <select name ="Contact" required>
                     <option value="Email">Email</option>
