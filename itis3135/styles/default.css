@@ -133,3 +133,23 @@ button
 {
 	text-align: left;
 }
+
+/**First Script**/
+.all_buttons
+{
+	align-items: center;
+	text-align: center;
+	
+}
+
+.script_buttons
+{
+	font-family: 'Courier New', Courier, monospace;
+	justify-content: center;
+	padding: 10px;
+}
+
+.tagline
+{
+	font-style: italic;
+}
