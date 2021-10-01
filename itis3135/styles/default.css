@@ -153,3 +153,16 @@ button
 {
 	font-style: italic;
 }
+
+/**Polygon**/
+.polygon_button
+{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 14px;
+	justify-content: center;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
