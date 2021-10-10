@@ -62,8 +62,7 @@ nav
 table
 {
 	border-collapse: collapse;
-	margin-left:auto;
-	margin-right:auto;
+	text-align:center;
 }
 
 thead
@@ -80,19 +79,20 @@ th, td
 	color:#1A7C2E;
 }
 
-tbody tr:nth-child(even) td
+tbody tr:nth-child(odd) td
 {
 	background-color: #3a3638;
 }
 
-#table_list
+.table_header
 {
-    text-align: center;
+	text-align: left;
 }
 
 #final_row
 {
 	background-color: #3a3638;
+	text-align:center;
 }
 
 /* Forms */
@@ -165,4 +165,64 @@ button
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
+}
+
+/**Calculator Try**/
+.calculator_try_group
+{
+	align-items: center;
+	text-align: center;
+}
+
+.calculator_try_buttons
+{
+	font-family: 'Courier New', Courier, monospace;
+	justify-content: center;
+	width: 100px;
+	height: 50px;
+}
+
+/**Calculator FCC**/
+
+.calculator
+{
+	display:grid;
+
+}
+
+.calculator__display
+{
+	background-color: black;
+	margin-right: 1050px;
+}
+
+/**Arrays**/
+
+.array_buttons
+{
+	font-family: 'Courier New', Courier, monospace;
+	justify-content: center;
+	width: 200px;
+	height: 30px;
+}
+
+.employee_dropdown
+{
+	align-items: center;
+	text-align: center;
+	color: #1a7c27;;
+	background-color: #3a3638;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	border: black 1px;
+	width: 200px;
+}
+
+.employee_heading
+{
+	text-align: left;
+}
+
+#employeeTable
+{
+	width: 200px;
 }

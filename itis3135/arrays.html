@@ -3,18 +3,13 @@
     <head>
         <meta charset="UTF-8">
 	    <link href="styles/default.css" rel="stylesheet" type="text/css">
-        <script src="scripts/polygon.js"></script>
-        <title>Spencer Jarvis, ITIS 3135, Polygon</title>
+        <script src="scripts/arrays.js"></script>
+        <title>Spencer Jarvis, ITIS 3135, Arrays</title>
     </head>
-    
     <body>
-
-<!--Default Header-->
         <header>
             <h1>Spencer Jarvis || ITIS 3135</h1>
         </header>
-
-<!--Default Navigation-->
         <nav>
             <a href="introduction.html">Introduction</a>
             ||
@@ -39,30 +34,57 @@
             <a href="index.html">Index</a>
         </nav>
 
-<!--Polygon Program-->
-
         <main>
-            <h2>Polygon</h2>
-            <h3 class="tagline">Polygons Made Easy</h3>
+            <br>
+            <h2 class="employee_heading">Employee Salaries</h2>
+            <br>
+
+            <!--Dropdown-->
+            <select name ="Employees" class ="employee_dropdown" id="select_employees">
+                <option class="employee_option">Jim</option>
+                <option class="employee_option">Micheal</option>
+                <option class="employee_option">Roger</option>
+                <option class="employee_option">Sean</option>
+                <option class="employee_option">Ron</option>
+                <option class="employee_option">Stanley</option>
+                <option class="employee_option">Trevor</option>
+            </select>
             <br>
             <br>
+
+            <!--Buttons-->
+            <button class="array_buttons" onclick="addSalary()">Add Salary</button>
             <br>
             <br>
+            <button class="array_buttons" onclick="displayResult()">Display Result</button> 
             <br>
             <br>
-            <div class = "polygon_button">
-                <button class = "polygon_button" onclick="getShape()">Get Shape</button>
+            <button class="array_buttons" onclick="displaySalary();">Display Salary</button>
+            <br>
+            <br>
+
+            <!--Average and Highest-->
+            <h3 class="employee_heading">Employee Statistics</h3>
+            <div id="results">
+                <p></p>
             </div>
             <br>
             <br>
-            <br>
-            <br>
+
+            <!--Table-->
+            <h3 class="employee_heading">Employee Table</h3>
+            <table id="employeeTable">
+                <tr>
+                    <td>Name</td>
+                    <td>Salary</td>
+                </tr>
+            </table>
             <br>
             <br>
         </main>
 
-<!--Default Footer-->
         <footer>
+            
             <nav>
                 <a href="https://webpages.uncc.edu/sjarvi13/itis3135/introduction.html" target="_blank">Charlotte.edu</a> ||
                 <a href="https://github.com/sjarvi13" target="_blank">Github</a>  ||
@@ -73,13 +95,14 @@
             <br>
             <p>Page built by <a href="brand-silly-jellyfish.html">Silly Jellyfish Productions Co.</a></p>
 
-            <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.uncc.edu%2Fsjarvi13%2Fitis3135%2Fpolygon.html">
+            <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.uncc.edu%2Fsjarvi13%2Fitis3135%2Farrays.html">
                 <img src="images/html-image.gif" width="88" height="31" alt="Link to HTML validator">
             </a>
     
-            <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwebpages.uncc.edu%2Fsjarvi13%2Fitis3135%2Fpolygon.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+            <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fwebpages.uncc.edu%252Fsjarvi13%252Fitis3135%252Farrays.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
                 <img src="images/css-image.gif" width="88" height="31" alt="Link to CSS validator">
             </a>
+
         </footer>
     </body>
 </html>
