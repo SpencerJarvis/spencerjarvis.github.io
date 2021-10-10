@@ -79,12 +79,12 @@ function displayResult()
 function displaySalary()
 {
     /**Connects Table to the HTML*/
-    var table = document.getElementById("employeeTable");
+    var employeetable = document.getElementById("employeeTable");
 
     /**Clears Row each time button is clicked to prevent repeat */
-    for (var i = 1; i < table.rows.length;)
+    for (var i = 1; i < employeetable.rows.length;)
     {
-        table.deleteRow(i);
+        employeetable.deleteRow(i);
     }
 
 
@@ -92,7 +92,7 @@ function displaySalary()
     for (let i = 0; i < salaries.length; i++)
     {
         
-        var row = table.insertRow();
+        var row = employeetable.insertRow();
         var cell1 = row.insertCell();
         var cell2 = row.insertCell();
         cell1.innerHTML = persons[i];
