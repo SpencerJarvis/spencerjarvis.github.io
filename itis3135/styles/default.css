@@ -226,3 +226,47 @@ button
 {
 	width: 200px;
 }
+
+/**Project A**/
+.sitemap
+{
+	width: 25%;
+	height: 25%;
+}
+.wireframe
+{
+	width: 50%;
+	height: 50%;
+}
+.projectheader
+{
+	text-align: left;
+}
+
+.pageheaders
+{
+	font-family: 'Courier New', Courier, monospace;
+}
+.sitefig,.wirefig
+{
+	text-align: left;
+}
+
+/**Slideshow**/
+
+.slideheader
+{
+	text-align: left;
+}
+
+#slide {
+
+	width: 50%;
+
+}
+#slides img
+{
+	width: 50%;
+	display: none;
+
+}
