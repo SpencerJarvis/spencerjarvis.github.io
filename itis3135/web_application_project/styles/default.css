@@ -1,0 +1,74 @@
+body
+{
+ background-color: #DEA402;
+}
+
+h1
+{
+    font-size: 48px;
+}
+
+h2
+{
+    font-style: italic;
+}
+
+header
+{
+    background-color: #A50104;
+    text-align: center;
+    color: #f3f3f3;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav
+{
+    background-color: #590004;
+    color: #f3f3f3;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+a
+{
+    color: #f3f3f3;
+}
+
+a:hover
+{
+    color: #DEA402;
+}
+
+#resturant1
+{
+    margin-left: 50%;
+	color: #f3f3f3;
+    background-color: #590004;
+}
+
+#resturant2
+{
+    margin-right: 50%;
+	color: #f3f3f3;
+    background-color: #590004;
+}
+
+#resturant3
+{
+    margin-left: 50%;
+	color: #f3f3f3;
+    background-color: #590004;
+}
+
+#contact
+{
+    margin-right: 75%;
+    color: #f3f3f3;
+    background-color: #590004;
+}
+
+footer
+{
+    background-color: #A50104;
+    text-align: center;
+}

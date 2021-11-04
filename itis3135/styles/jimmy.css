@@ -1,0 +1,12 @@
+/**Slideshow**/
+
+li
+{
+    display: inline;
+}
+
+img
+{
+    height: 200px;
+    width: 500px;
+}
