@@ -18,7 +18,8 @@ header
     background-color: #A50104;
     text-align: center;
     color: #f3f3f3;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
 }
 
 nav
@@ -41,30 +42,43 @@ a:hover
 
 #resturant1
 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 50%;
 	color: #f3f3f3;
     background-color: #590004;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #resturant2
 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-right: 50%;
 	color: #f3f3f3;
     background-color: #590004;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #resturant3
 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 50%;
 	color: #f3f3f3;
     background-color: #590004;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #contact
 {
-    margin-right: 75%;
     color: #f3f3f3;
     background-color: #590004;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-align:center;
 }
 
 footer
@@ -72,3 +86,25 @@ footer
     background-color: #A50104;
     text-align: center;
 }
+
+#bad,#superica,#yard,#lettys,#mama,#paco,#midwood
+{
+    height: 50%;
+    width: 50%;
+}
+
+#feedback
+{
+    height: 100px;
+    width: 300px;
+}
+
+#submit
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #DEA402;
+    color: #f3f3f3;
+    height: 40px;
+    width: 100px;
+}
+

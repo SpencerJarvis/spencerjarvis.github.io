@@ -5,20 +5,21 @@
         <title>Spencer Jarvis, ITIS 3135, Silly Jellyfish Prodcutions</title>
         <link href="styles/default.css" rel="stylesheet" type="text/css" >
         <script src="scripts/w3.js"></script>
+        <script src="scripts/submit.js"></script>
     </head>
     <body>
         <header w3-include-html="components/header.html"></header>
         <nav w3-include-html="components/nav.html"></nav>
         <main>
             <h2>Contact</h2>
-            <p>Enter Your Contact Information to Become a Client: </p>
+            <p class="mainpara">Enter Your Contact Information to Become a Client: </p>
             <form>
                 <label>User's Name: </label>
                 <input type="text" id="name" name="name" placeholder="Name" required>
                 <br>
                 <br>
-                <label>User's Company: </label>
-                <input type="text" id="name" name="name" placeholder="Name" required>
+                <label>Company: </label>
+                <input type="text" id="company" name="company" placeholder="Company" required>
                 <br>
                 <br>
                 <label>Email: </label>
@@ -28,9 +29,16 @@
                 <label>Phone Number: </label>
                 <input type="text" id="phone" name="phone" placeholder="Phone" required>
                 <br>
+                <br>
+                <button type="button" id="submit" onclick="jingle()">Submit</button>
             </form>
+            <br>
 
-                
+            <div id="contact">
+                <p></p>
+            </div>
+
+            <br>                
         </main>
             
         <footer w3-include-html="components/footer.html"></footer>

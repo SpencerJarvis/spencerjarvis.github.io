@@ -36,7 +36,7 @@ h1, h2
     text-align: center;
 }
 
-.mainpara
+.mainpara, label, #contact
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     text-align: justify;
@@ -51,7 +51,6 @@ nav
 {
     background-color: #5D5179;
     text-align: center;
-    font-family: Optima;
     font-weight: bold;
     color:white;
 }
@@ -59,9 +58,11 @@ nav
 a
 {
     color:#92C9B1;
+    font-family: Optima;
 }
 
 a:hover
 {
     color:white;
 }
+
