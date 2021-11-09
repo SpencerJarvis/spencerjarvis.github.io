@@ -259,28 +259,16 @@ button
 	text-align: left;
 }
 
-#slide {
+#start_slide {
 
-	width: 50%;
+	width: 500px;
+	height: 250px;
 
 }
-#slides img
+
+#slide_list li
 {
-	width: 50%;
+	width: 500px;
+	height: 250px;
 	display: none;
-
-}
-
-/**Jimmy**/
-/**Slideshow**/
-
-li
-{
-    display: inline;
-}
-
-img
-{
-    height: 200px;
-    width: 500px;
 }

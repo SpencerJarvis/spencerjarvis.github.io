@@ -1,6 +1,6 @@
 body
 {
- background-color: #DEA402;
+ background-color: #A50104;
 }
 
 h1
@@ -15,7 +15,7 @@ h2
 
 header
 {
-    background-color: #A50104;
+    background-color: #DEA402;
     text-align: center;
     color: #f3f3f3;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -24,7 +24,7 @@ header
 
 nav
 {
-    background-color: #590004;
+    background-color: #DEA402;
     color: #f3f3f3;
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -37,7 +37,7 @@ a
 
 a:hover
 {
-    color: #DEA402;
+    color: #590004;
 }
 
 #resturant1
@@ -45,7 +45,7 @@ a:hover
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 50%;
 	color: #f3f3f3;
-    background-color: #590004;
+    background-color: #DEA402;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -55,7 +55,7 @@ a:hover
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-right: 50%;
 	color: #f3f3f3;
-    background-color: #590004;
+    background-color: #DEA402;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -65,15 +65,15 @@ a:hover
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 50%;
 	color: #f3f3f3;
-    background-color: #590004;
+    background-color: #DEA402;
     padding-left: 10px;
     padding-right: 10px;
 }
 
 #contact
 {
-    color: #f3f3f3;
-    background-color: #590004;
+    color: #590004;
+    background-color: #DEA402;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-left: 10px;
     padding-right: 10px;
@@ -83,7 +83,7 @@ a:hover
 
 footer
 {
-    background-color: #A50104;
+    background-color: #DEA402;
     text-align: center;
 }
 
@@ -102,7 +102,7 @@ footer
 #submit
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #DEA402;
+    background-color: #A50104;
     color: #f3f3f3;
     height: 40px;
     width: 100px;
