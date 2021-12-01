@@ -8,6 +8,7 @@ $(document).ready(function() {
         randomStart: true,
         captions: true,
         speed: 3000,
-        pagerType: "short"        
+        pagerType: 'short',
+        pagerCustom: $("#id_pager"),      
     });
 });
