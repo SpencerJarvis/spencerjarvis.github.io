@@ -2,21 +2,24 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-	    <link href="styles/default.css" rel="stylesheet" type="text/css" >
+        <link href="styles/default.css" rel="stylesheet" type="text/css" >
+        <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+        <script src="scripts/accordion.js"></script>
         <title>Charlotte Foods - Contact</title>
         <!--Color Scheme: https://coolors.co/dea402-a50104-590004-250001-f3f3f3-->
     </head>
     <body>
         <header>
-            <br>
             <h1>Charlotte Foods</h1>
             <h2>Contact</h2>
-            <br>
         </header>
+        <br>
         <nav>
             <br>
-            <a href="index.html">Home</a>   ||
-            <a href="american.html">American Food</a>   ||
+            <a href="index.html">Home</a>  ||
+            <a href="american.html">American Food</a>  ||
             <a href="cajun.html">Cajun Food</a> ||
             <a href="italian.html">Italian Food</a> ||
             <a href="mexican.html">Mexican Food</a> ||
@@ -26,21 +29,21 @@
         </nav>
         <br>
         <main>
-            <div id="contact">
-                <h2>Contact Information</h2>
-                <ul>
-                    <li>Website Creator: Spencer Jarvis</li>
-                    <li>Website Client: Logan Duvick</li>
-                    <li>Email: lduvick@uncc.edu</li>
-                </ul>
-                <p>If you have any feedback, tell us!</p>
-                <form>
-                    <input type="text" id="feedback" name="feedback" placeholder="Feedback" required>
-                    <br>
-                    <br>
-                    <button type="button" id="submit">Submit</button>
-                    <br>
-                </form>
+            <div id="accordion">
+                <h2 class="accordion-header">Client</h2>
+                <div class="accordion-tab">
+                    <ul>
+                        <li>Website Client: Logan Duvick</li>
+                        <li>Email: lduvick@uncc.edu</li>
+                    </ul>
+                </div>
+                <h2 class="accordion-header">Website Creator</h2>
+                <div class="accordion-tab">
+                    <ul>
+                        <li>Website Creator: Spencer Jarvis</li>
+                        <li>Email: sjarvi13@uncc.edu</li>
+                    </ul>
+                </div>
             </div>
         </main>
         <br>

@@ -20,6 +20,7 @@ header
     color: #f3f3f3;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: oblique;
+    border-radius: 10px;
 }
 
 nav
@@ -28,6 +29,7 @@ nav
     color: #f3f3f3;
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
 }
 
 a
@@ -48,6 +50,7 @@ a:hover
     background-color: #DEA402;
     padding-left: 10px;
     padding-right: 10px;
+    border-radius: 10px;
 }
 
 #resturant2
@@ -58,6 +61,7 @@ a:hover
     background-color: #DEA402;
     padding-left: 10px;
     padding-right: 10px;
+    border-radius: 10px;
 }
 
 #resturant3
@@ -68,6 +72,7 @@ a:hover
     background-color: #DEA402;
     padding-left: 10px;
     padding-right: 10px;
+    border-radius: 10px;
 }
 
 #contact
@@ -108,3 +113,44 @@ footer
     width: 100px;
 }
 
+
+
+#id_pager {
+	text-align: center;
+	font-size: 90%;
+	color: #f3f3f3;
+    background-color: #DEA402;
+    border-radius: 10px;
+}
+
+#slide
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slideshow
+{
+    text-align: center; 
+}
+
+.slideshow img
+{
+    width: 600px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  
+}
+
+
+.slideshow_header
+{
+    background-color: #DEA402;
+    color: #f3f3f3;
+    padding: 10px;
+    border-radius: 10px;
+}

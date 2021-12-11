@@ -2,17 +2,26 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-	    <link href="styles/default.css" rel="stylesheet" type="text/css" >
+        <link href="styles/default.css" rel="stylesheet" type="text/css" >
+        <!--Lightbox-->
+        <link href="styles/lightbox.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="scripts/lightbox.js"></script>
+        <!--Slideshow-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+        <script src="scripts/slideshow.js"></script>
+
         <title>Charlotte Foods - Home</title>
         <!--Color Scheme: https://coolors.co/dea402-a50104-590004-250001-f3f3f3-->
     </head>
     <body>
         <header>
-            <br>
             <h1>Charlotte Foods</h1>
             <h2>Home</h2>
-            <br>
         </header>
+        <br>
         <nav>
             <br>
             <a href="index.html">Home</a>   ||
@@ -26,12 +35,15 @@
         </nav>
         <br>
         <main>
-            <div id="slideshow">
-                <br>
-                <h2>Slideshow</h2>
-                <p>This is where the slideshow of random pictures of the restuarnts will be.</p>
-                <br>
-            </div>            
+            <h2 class="slideshow_header">Click Each Image to See Where the Food is From</h2>
+        <div class= "slideshow">
+            <ul id="slide">
+                <li><a href = "images/home/daddy.jpg" data-lightbox="vecta" data-title= "https://baddaddysburgerbar.com/"><img class="slideshow_image" src="images/home/daddy.jpg" alt="" title="Bad Daddy's Burger Bar"></a></li>
+                <li><a href = "images/home/letty.png" data-lightbox="vecta" data-title= "https://www.lettysonshamrock.com/"><img class="slideshow_image" src="images/home/letty.png" alt="" title="Letty's"></a></li>
+                <li><a href = "images/home/mama.jpg" data-lightbox="vecta" data-title= "https://www.mamaricottas.com/"><img class="slideshow_image" src="images/home/mama.jpg" alt="" title="Mama Ricotta's"></a></li>
+                <li><a href = "images/home/paco.jpg" data-lightbox="vecta" data-title= "https://www.pacostacosandtequila.com/"><img class="slideshow_image" src="images/home/paco.jpg" alt="" title="Paco's Tacos and Tequila"></a></li>
+            </ul>
+        </div>          
         </main>
         <br>
         <footer>
